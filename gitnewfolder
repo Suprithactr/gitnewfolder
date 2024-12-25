@@ -1,0 +1,28 @@
+  clear
+    2  mkdir practice
+    3  cd practice/
+    4  vi class
+    5  rm -rf class
+    6  clear
+    7  ls -la
+    8  git init
+    9  git branch -M main
+   10  git ls -l
+   11  ls -l
+   12  git remote add origin https://github.com/akashclass/testgit.git
+   13  git remote -v
+   14  git pull
+   15  ls -l
+   16  clear
+   17  git clone https://github.com/akashclass/testgit.git
+   18  ls -l
+   19  cd testgit/
+   20  touch akash
+   21  cat > akash
+   22  git status
+   23  git add akash
+   24  git status
+   25  git commit -m "first commit"
+   26  git branch
+   27  git push
+   28  history
